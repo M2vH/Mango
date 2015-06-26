@@ -3,29 +3,42 @@
   "version": "0.1.0",
   "description": "Markdown Editor",
   "main": "index.html",
-  "author": "zhaolujun1994@gmail.com",
+  "author": {
+    "name": "zhaolujun1994@gmail.com"
+  },
   "license": "GPL3",
   "single-instance": false,
   "window": {
-	"toolbar": false,
-	"show": true,
-	"width": 1000,
+    "toolbar": false,
+    "show": true,
+    "width": 1000,
     "height": 600,
-	"min_width": 800,
+    "min_width": 800,
     "min_height": 500,
-	"icon": "./img/Mango1.png"
+    "icon": "./img/Mango1.png"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/egrcc/Mango.git"
   },
   "dependencies": {
-		"marked": "^0.3.3",
-		"bootbox": "~4.4.0",
-		"request": "~2.55.0",
-		"bootstrap": "3.3.0",
-		"phantom-html2pdf": "~0.1.3",
-		"nimble": "*",
-		"evernote": "~1.25.4"
-  }
+    "marked": "^0.3.3",
+    "bootbox": "~4.4.0",
+    "request": "~2.55.0",
+    "bootstrap": "3.3.0",
+    "phantom-html2pdf": "~0.1.3",
+    "nimble": "*",
+    "evernote": "~1.25.4"
+  },
+  "gitHead": "f8ffbd4c23510f316121cf9586daec842676d998",
+  "readme": "\n# Mango Editor for Markdown\n\n![Mango](./img/Mango1_256.png)\n\n## What is Mango?\n\n**Mango** is a Markdown editor designed for Linux, also supports Windows and Mac OSX. It's not only supports Markdown, but also extends Markdown syntax with some nice features to help people conveniently write **mathematical formula** and **code**. I write a blog in [here](http://egrcc.github.io/2015/04/12/mango-tutorial/) (in chinese) describe the implement of Mango.\n\n中文说明见[这里](./README-zh.md).\n\n## Main Features\n\n#### 1. Cross Platform Support\n\n**Mango** is powered by [NW.js](http://nwjs.io/), so it supports all three major operating systems: **Windows**, **Mac OS X**, and **Linux**. \n\n#### 2 . Live Preview with Scroll Sync\n\n**Mango**’s Scroll Sync accurately binds the scrollbars of the editor panel and the preview panel to ensure that you always keep an eye on the output while writing.\n\n#### 3 . Mathematics Expression\n\nWith **MathJax** support you can render beautiful **LaTeX** expressions. For inline formulas, enclose the formula in `$...$`. For displayed formulas, use `$$...$$`. \n\n![](./img/readme_math.png)\n\n    \n    \n                            \n#### 4. Syntax Highlighting \n\nYou can write code like below, that will highlighted in the Live Preview:\n\n![](./img/readme_code.png)\n\n#### 5. Export to Various Formats \n\nYou can conveniently export your documents to PDF (shortcut: `Ctrl + E`) and HTML (shortcut: `Shift + Ctrl + E`) with beautiful theme.\n\n## Screenshots\n\n![](./img/readme_screenshot1.png)\n\n\n</br>\n![](./img/readme_screenshot2.png)\n\n</br>\n![](./img/readme_screenshot3.png)\n\n</br>\n![](./img/readme_screenshot4.png)\n\n## Downloads\n\n- **Linux**: [32bit](https://github.com/egrcc/Mango-dists/blob/master/mango-v0.1.0-linux-ia32.tar.gz?raw=true) / [64bit](https://github.com/egrcc/Mango-dists/blob/master/mango-v0.1.0-linux-x64.tar.gz?raw=true)\n- **Windows**: [32bit](https://github.com/egrcc/Mango-dists/blob/master/mango-v0.1.0-win-ia32.zip?raw=true) / [64bit](https://github.com/egrcc/Mango-dists/blob/master/mango-v0.1.0-win-x64.zip?raw=true)\n- **Mac OSX**: 32bit / 64bit\n\nIf you have NW.js installed, you also can run from source code.\n\n## Acknowlegements\n\n**Mango** is a open source project, and uses many other open source projects. For detailed information, please see [**Acknowlegements**](./docs/Acknowlegements.md) in docs. \n\n## License\n\n**Mango** uses the GNU General Public License v3.0, see LICENSE file.\n\n## Feedback & Bug Report\n\nYou can contact me via:\n\n- Twitter：[@egrcc](https://twitter.com/egrcc)\n- Weibo：[@egrcc](http://weibo.com/u/2948739432)\n- Email： [zhaolujun1994@gmail.com](mailto:zhaolujun1994@gmail.com)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/egrcc/Mango/issues"
+  },
+  "homepage": "https://github.com/egrcc/Mango",
+  "_id": "Mango@0.1.0",
+  "_shasum": "3ed88564b078391c571fbdeb1bcbb53d5a6dc300",
+  "_from": "git+ssh://git@github.com:M2vH/Mango.git",
+  "_resolved": "git+ssh://git@github.com:M2vH/Mango.git#f8ffbd4c23510f316121cf9586daec842676d998"
 }
