@@ -33,24 +33,28 @@
 Tables can be written very ugly...
 
 ```markdown
-|in|short|just|type|
-|-|-:|:-|-:|
-|this|is|a|test|
-|of|**a**|really|quick|
-|table|generated|in|`markdown`|
+| in | short | just | type |
+|--|-:|:-|-:|
+| this | is | a | test |
+| of | **a** | really | quick |
+| table | generated | in | `markdown` |
 ```
 
 ...but still apear quiet neat.
 
-|in|short|just|type|
-|-|-:|:-|-:|
-|this|is|a|test|
-|of|**a**|really|quick|
-|table|generated|in|`markdown`|
+
+| in | short | just | type |
+|--|-:|:-|-:|
+| this | is | a | test |
+| of | **a** | really | quick |
+| table | generated | in | `markdown` |
+
 
 ---
 
+
 ![table](./../img/mango_table.png)
+
 
 ## Code and Syntax Highlighting
 
